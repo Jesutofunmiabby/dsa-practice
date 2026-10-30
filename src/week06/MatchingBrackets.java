@@ -1,5 +1,5 @@
 // Idea: push every opening bracket onto a stack, and every closing bracket must match the bracket popped from the top.
-// Mistake: TODO
+// Mistake: I returned true at the end instead of checking the stack was empty, so "((" and "(" passed as valid.
 package week06;
 
 import java.util.ArrayDeque;
