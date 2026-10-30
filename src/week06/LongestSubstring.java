@@ -1,5 +1,5 @@
 // Idea: slide a window over the string and, when a character repeats inside it, jump the left edge to just past where that character was last seen.
-// Mistake: TODO
+// Mistake: I moved left to the repeat's last index + 1 even when that repeat was already outside the window, so on "abba" the window went backwards and gave 3 instead of 2.
 package week06;
 
 import java.util.HashMap;
