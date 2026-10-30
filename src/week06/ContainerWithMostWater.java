@@ -1,5 +1,5 @@
 // Idea: start with the widest container and always move the shorter wall inward, because moving the taller one can never give more water.
-// Mistake: TODO
+// Mistake: I moved the right pointer in both cases, so the left line never moved and [1,8,6,2,5,4,8,3,7] gave 8 instead of 49. The shorter line is the one to move.
 package week06;
 
 import java.util.Arrays;
