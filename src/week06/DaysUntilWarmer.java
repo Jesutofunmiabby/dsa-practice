@@ -1,5 +1,5 @@
 // Idea: keep a stack of days still waiting for a warmer day, and when a warmer day arrives, pop and answer every colder day on top.
-// Mistake: TODO
+// Mistake: my first try compared the temperature with an index on the stack, and then I used if instead of while, so one warm day only settled one waiting day: [60,50,40,70] gave [0,0,1,0] instead of [3,2,1,0].
 package week06;
 
 import java.util.ArrayDeque;
