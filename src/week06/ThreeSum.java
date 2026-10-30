@@ -1,5 +1,5 @@
 // Idea: sort the numbers, fix each one in turn, and use two pointers on the rest to find pairs that cancel it out, skipping repeated values.
-// Mistake: TODO
+// Mistake: after finding a triplet I didn't skip equal values, so [-2,0,0,2,2] listed [-2,0,2] twice.
 package week06;
 
 import java.util.ArrayList;
